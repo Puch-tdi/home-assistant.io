@@ -26,6 +26,7 @@ and make sure the first partition is available.
 - In the `CONFIG` folder, add another new folder called `modules`.
 - Inside the `modules` folder add a text file called `rpi-i2c.conf` with the following content:
   ```txt
+  i2c-bcm2708
   i2c-dev
   ```
 - In the root of the `hassos-boot` partition, edit the file called `config.txt` add two lines
